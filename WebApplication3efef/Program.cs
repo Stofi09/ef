@@ -28,3 +28,21 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+/*
+ * 
+ * Todo : Megprobalni zarojel es // nelkul. csak ip
+ <ItemGroup>
+	  <PackageReference Include="Bcrypt.Net-Next" Version="4.0.3" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+ 
+ 
+ 
+ */
